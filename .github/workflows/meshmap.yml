@@ -35,9 +35,9 @@ jobs:
       - uses: actions/checkout@v3 #this step would go away
         with:
           path: action
-          repository: layer5labs/meshmap-snapshot
+          repository: theBeginner86/MeshMap-Snapshot
       - id: test_result
-        uses: layer5labs/MeshMap-Snapshot@v0.1.5
+        uses: theBeginner86/MeshMap-Snapshot@master
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }} # github's personal access token example: "ghp_...."
           providerToken: ${{ secrets.MESHERY_PROVIDER_TOKEN }} # Meshery Cloud Authentication token, signin to meshery-cloud to get one, example: ey.....
