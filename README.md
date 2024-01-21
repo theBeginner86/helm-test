@@ -1,1 +1,1 @@
-This is a sample repo to test Helm Repos
+This is a sample repo to test MY Helm Repos
